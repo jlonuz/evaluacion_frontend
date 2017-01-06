@@ -3,7 +3,7 @@ $(document).ready(function(){
 	
 	$("#elegir-autos").hide();
 	
-	/*var cuidades = [
+	var cuidades = [
 	{
 		nombre: "Arica",
 		distancia: 2059,
@@ -13,9 +13,58 @@ $(document).ready(function(){
 		distancia: 1789,
 	},
 	{
-		nombre: "Antofagasta"
+		nombre: "Antofagasta",
+		distancia: 1368,
+	},
+	{
+		nombre: "Calama",
+		distancia: 1567,
+	},
+	{
+		nombre: "La Serena",
+		distancia: 470,
+	},
+	{
+		nombre: "Valparaíso",
+		distancia: 116,
+	},
+	{
+		nombre: "Santiago",
+		distancia: 0,
+	},
+	{
+		nombre: "Rancagua",
+		distancia: 84,
+	},
+	{
+		nombre: "Talca",
+		distancia: 257,
+	},
+	{
+		nombre: "Concepción",
+		distancia: 500,
+	},
+	{
+		nombre: "Temuco",
+		distancia: 690,
+	},
+	{ 
+		nombre: "Valdivia",
+		distancia: 848,
+	},
+	{
+		nombre:"Puerto Montt",
+		distancia:1032
+	},
+	{
+		nombre: "Coyhaique",
+		distancia: 1888,
+	},
+	{
+		nombre: "Punta Arena",
+		distancia: 3004,
 	}
-	]*/
+	];
 
 
 
