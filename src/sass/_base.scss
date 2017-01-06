@@ -1,0 +1,70 @@
+.fondo-mapa {
+	position:relative;
+	background-image:url(../img/background.jpg);
+	background-size:cover;
+	max-width:100%;
+	padding-bottom:350px;
+	h4{
+		letter-spacing:3px;
+	}
+	.btn-warning {
+		position:relative;
+		top:55px;
+		left:101px;
+		padding:5px 112px;
+		border-radius:0px;
+		margin-top:10px;
+	}
+}
+.barra-nav {
+	margin:0;
+	background-color:white;
+	img {
+		max-width:30%;
+		margin-top:10px;
+	}
+	a {
+		font-size:50px;
+		color:$color-principal;
+		i {
+			margin-top:10px;
+			&:hover {
+				color:black;
+			}
+		}
+	}
+}
+
+.box-select {
+	position:relative;
+	top:50px;
+	left:100px;
+	border:1px solid $color-principal;
+	background-color:white;
+	padding:30px;
+	.form-control {
+		border:1px solid $color-principal;
+
+	}
+	.origen {
+		margin-bottom:5px;
+	}
+
+	.destino{
+		padding:20px;
+	}
+}
+ .box-cars {
+ 	@extend .box-select;
+ 	margin-top:20px;
+ 	padding-top:10px;
+ 	
+ }
+
+
+
+
+@media (max-width : 320px) {
+
+
+}

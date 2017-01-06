@@ -1,0 +1,7 @@
+habilitar boton
+
+<button id="btn" disabled="disabled">Buscar</button>
+
+json
+
+cuidad, nombre, distancia.

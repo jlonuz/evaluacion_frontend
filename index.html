@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>carrocomp!</title>
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/style.min.css">
+	<!--REQUIRED STYLE SHEETS-->
+</head>
+<body>
+	<section class="container-fluid">
+		<div class="navbar navar-fixed-top barra-nav" >
+			<div class="col-xs-10 col-ms-2 col-md-10">
+				<img src="src/img/logo-gris.jpg" alt="">
+			</div>
+			<div class="col-xs-2 col-ms-4 col-md-2">
+				
+				<a href="#" data-toggle="tooltip" data-placement="bottom"title="CARROCOMP! La nueva forma de moverte por la cuidad. Con carrocomp! puedes compartir tu viaje con amigos y repartir el costo equitativamente."><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+			</div>
+		</div>
+	</section>
+	<section class="container-fluid fondo-mapa">
+		<div class="row">
+			<div class="col-xs-12 col-ms-3 col-md-3">
+				<div class="box-select">
+					<h4>ORIGEN</h4>
+					<select id="cuidad_origen" class="form-control origen">
+						<option>Seleccione</option>
+						<option>Santiago</option>
+						<option>Arica</option>
+						<option>Iquique</option>
+						<option>Antofagasta</option>
+						<option>Calama</option>
+						<option>La Serena</option>
+						<option>Valparaíso</option>
+						<option>Rancagua</option>
+						<option>Talca</option>
+						<option>Concepción</option>
+						<option>Temuco</option>
+						<option>Valdivia</option>
+						<option>Puerto Montt</option>
+						<option>Coyhaique</option>
+						<option>Punta Arena</option>
+					</select>
+					<h4>DESTINO</h4>
+					<select id="cuidad_destino" class="form-control destino">
+						<option>Seleccione</option>
+						<option>Santiago</option>
+						<option>Arica</option>
+						<option>Iquique</option>
+						<option>Antofagasta</option>
+						<option>Calama</option>
+						<option>La Serena</option>
+						<option>Valparaíso</option>
+						<option>Rancagua</option>
+						<option>Talca</option>
+						<option>Concepción</option>
+						<option>Temuco</option>
+						<option>Valdivia</option>
+						<option>Puerto Montt</option>
+						<option>Coyhaique</option>
+						<option>Punta Arena</option>
+					</select>
+				</div>
+				<button id="buscar" class="btn btn-warning">BUSCAR</button>
+			
+				<div id="elegir-autos"class="box-cars">
+					<h4>VEHICULO</h4>
+					<p>Seleccione vehículo</p>
+				</div>
+
+			</div>
+			
+		
+		</div>
+	</section>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>  
+	
+	<script>
+		$(document).ready(function(){
+		    $('[data-toggle="tooltip"]').tooltip(); 
+		});
+</script>
+<script type="text/javascript" src="dist/js/script.min.js"></script>
+	
+</body>
+</html>

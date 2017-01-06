@@ -1,0 +1,10 @@
+body {
+  position: relative;
+  background-image: url(../src/img/background.jpg);
+  background-size: cover; }
+
+.box-select {
+  position: relative;
+  top: 300px;
+  border: 1px solid black;
+  background-color: #00B7B9; }
