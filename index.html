@@ -26,55 +26,131 @@
 			<div class="col-xs-12 col-ms-3 col-md-3">
 				<div class="box-select">
 					<h4>ORIGEN</h4>
-					<select id="cuidad_origen" class="form-control origen">
-						<option>Seleccione</option>
-						<option>Santiago</option>
-						<option>Arica</option>
-						<option>Iquique</option>
-						<option>Antofagasta</option>
-						<option>Calama</option>
-						<option>La Serena</option>
-						<option>Valparaíso</option>
-						<option>Rancagua</option>
-						<option>Talca</option>
-						<option>Concepción</option>
-						<option>Temuco</option>
-						<option>Valdivia</option>
-						<option>Puerto Montt</option>
-						<option>Coyhaique</option>
-						<option>Punta Arena</option>
+					<select id="ciudad_origen" class="form-control origen">
+						<option value="0">Seleccione</option>
+						<option value="Santiago">Santiago</option>
+						<option value="Arica">Arica</option>
+						<option value="Iquique">Iquique</option>
+						<option value="Antofagasta">Antofagasta</option>
+						<option value="Calama">Calama</option>
+						<option value="La Serena">La Serena</option>
+						<option value="Valparaíso">Valparaíso</option>
+						<option value="Rancagua">Rancagua</option>
+						<option value="Talca">Talca</option>
+						<option value="Concepción">Concepción</option>
+						<option value="Temuco">Temuco</option>
+						<option value="Valdivia">Valdivia</option>
+						<option value="Puerto Montt">Puerto Montt</option>
+						<option value="Coyhaique">Coyhaique</option>
+						<option value="Punta Arenas">Punta Arena</option>
 					</select>
 					<h4>DESTINO</h4>
-					<select id="cuidad_destino" class="form-control destino">
-						<option>Seleccione</option>
-						<option>Santiago</option>
-						<option>Arica</option>
-						<option>Iquique</option>
-						<option>Antofagasta</option>
-						<option>Calama</option>
-						<option>La Serena</option>
-						<option>Valparaíso</option>
-						<option>Rancagua</option>
-						<option>Talca</option>
-						<option>Concepción</option>
-						<option>Temuco</option>
-						<option>Valdivia</option>
-						<option>Puerto Montt</option>
-						<option>Coyhaique</option>
-						<option>Punta Arena</option>
+					<select id="ciudad_destino" class="form-control destino">
+						<option value="0">Seleccione</option>
+						<option value="Santiago">Santiago</option>
+						<option value="Arica">Arica</option>
+						<option value="Iquique">Iquique</option>
+						<option value="Antofagasta">Antofagasta</option>
+						<option value="Calama">Calama</option>
+						<option value="La Serena">La Serena</option>
+						<option value="Valparaíso">Valparaíso</option>
+						<option value="Rancagua">Rancagua</option>
+						<option value="Talca">Talca</option>
+						<option value="Concepción">Concepción</option>
+						<option value="Temuco">Temuco</option>
+						<option value="Valdivia">Valdivia</option>
+						<option value="Puerto Montt">Puerto Montt</option>
+						<option value="Coyhaique">Coyhaique</option>
+						<option value="Punta Arenas">Punta Arena</option>
 					</select>
 				</div>
 				<button id="buscar" class="btn btn-warning">BUSCAR</button>
-			
-				<div id="elegir-autos"class="box-cars">
-					<h4>VEHICULO</h4>
-					<p>Seleccione vehículo</p>
-				</div>
-
 			</div>
 			
 		
 		</div>
+		<div class="row">
+			<div class="col-xs-12 col-ms-3 col-md-3">
+				<div id="elegir-autos"class="box-cars">
+					<h4 class="anular-margin">VEHICULO</h4>
+					<p>Seleccione vehículo</p>
+					<div class="row">
+						<div class="col-xs-5 col-ms-5 col-md-5">
+							<div class="radio">
+								<label>
+									<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+								</label>
+								<img class="vehiculos" src="src/img/moto.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-xs-7 col-ms-7 col-md-7 caja-texto">
+							<strong>Motocicletas</strong>
+							<span>Máximo 2 pasasjeros</span>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-xs-5 col-ms-5 col-md-5">
+							<div class="radio">
+								<label>
+									<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+								</label>
+								<img class="vehiculos" src="src/img/auto.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-xs-7 col-ms-7 col-md-7 caja-texto">
+							<strong>Automóvil</strong>
+							<span>Máximo 5 pasasjeros</span>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-5 col-ms-5 col-md-5">
+							<div class="radio">
+								<label>
+									<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+								</label>
+								<img class="vehiculos" src="src/img/van.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-xs-7 col-ms-7 col-md-7 caja-texto">
+							<strong>Minivan</strong>
+							<span>Máximo 10 pasasjeros</span>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-5 col-ms-5 col-md-5">
+							<div class="radio">
+								<label>
+									<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+								</label>
+								<img class="vehiculos" src="src/img/camion.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-xs-7 col-ms-7 col-md-7 caja-texto">
+							<strong>Camión</strong>
+							<span>Máximo 3 pasasjeros</span>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-xs-8 col-ms-8 col-md-8">
+							<strong>Cantiadad pasajeros:</strong>
+						</div>
+						<div class="col-xs-4 col-ms-4 col-md-4">
+							<input type="text" size=3>
+						</div>	
+					</div>
+					
+				</div>
+				<button id="compartir-carro" class="btn btn-warning">Compartir Carro!</button>
+		</div>
+				
+				
+					
+
+			
 	</section>
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>  
@@ -83,8 +159,8 @@
 		$(document).ready(function(){
 		    $('[data-toggle="tooltip"]').tooltip(); 
 		});
-</script>
-<script type="text/javascript" src="dist/js/script.min.js"></script>
+	</script>
+	<script type="text/javascript" src="dist/js/script.min.js"></script>
 	
 </body>
 </html>

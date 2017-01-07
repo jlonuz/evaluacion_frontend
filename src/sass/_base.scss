@@ -7,13 +7,13 @@
 	h4{
 		letter-spacing:3px;
 	}
-	.btn-warning {
+	#buscar {
 		position:relative;
 		top:55px;
 		left:101px;
 		padding:5px 112px;
 		border-radius:0px;
-		margin-top:10px;
+		margin-top:10px;	
 	}
 }
 .barra-nav {
@@ -27,7 +27,7 @@
 		font-size:50px;
 		color:$color-principal;
 		i {
-			margin-top:10px;
+			margin-top:15px;
 			&:hover {
 				color:black;
 			}
@@ -41,7 +41,8 @@
 	left:100px;
 	border:1px solid $color-principal;
 	background-color:white;
-	padding:30px;
+	padding:20px;
+	padding-bottom: 15px;
 	.form-control {
 		border:1px solid $color-principal;
 
@@ -54,17 +55,80 @@
 		padding:20px;
 	}
 }
+
  .box-cars {
  	@extend .box-select;
  	margin-top:20px;
  	padding-top:10px;
- 	
- }
+ 	p {
+ 		margin-bottom:25px;
+ 	}
+ 	.caja-texto {
+		margin-top:15px;
+		display:block;
+		span {
+			font-size:10px;
+			margin:0;
+			display:block;
+		}
+	}
+ 	.anular-margin {
+ 		margin-bottom:0px;
+ 	}
+	.radio {
+	 	display:block;
+	 		.vehiculos {
+		 		width:40px;
+				height:40px;
+		 		margin-left:15px;
+	 		}
+	 	}
+}
 
+#compartir-carro {
+	position:relative;
+	top:55px;
+	left:101px;
+	padding:5px 88px;
+	border-radius:0px;
+	margin-top:10px;	
+		
+	}	
 
 
 
 @media (max-width : 320px) {
-
-
+		
+		.barra-nav {
+		margin:0;
+		background-color:white;
+		img {
+			max-width:100%;
+			margin-top:10px;
+		}
+		a {
+			font-size:25px;
+			color:$color-principal;
+			i {
+				margin-top:20px;
+				&:hover {
+					color:black;
+					}
+				}
+			}
+		}
+		.box-select {
+			left:5px;
+			}
+		
+		.fondo-mapa {
+			#buscar {
+				left:5px;
+				padding:5px 115px;
+				}
+			#compartir-carro{
+				left:5px;
+				padding:5px 92px;
+			}
+		}
 }
